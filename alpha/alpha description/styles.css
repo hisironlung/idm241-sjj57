@@ -1,0 +1,49 @@
+.title{
+background-color: black; max-width: 100%; width: fit-content; padding: 8px;
+}
+div{
+    max-width: 100%; width: fit-content;
+}
+h2{color: #e7d283; margin: 0; font-size: 24px;}
+#url{
+    background-color: black; max-width: 100%; width: fit-content; padding: 8px; border: 4px solid #956e30; margin-left: auto;
+  margin-right: auto; margin-bottom: 8px;
+}
+#url h3{
+    margin: 0; color: white; font-size: 26px;
+}
+#url a, a:active, a:visited{
+    color: white;
+}
+p{
+    text-align: center; color: black; margin: 0;
+}
+
+.instructions{
+    background-color: #e7d283; margin-left: auto; margin-right: auto; margin-bottom: 5px; padding: 5px; border: 4px solid #956e30;
+}
+
+.structure>ul{margin: 0; padding: 5px 5px 5px 20px; border: 4px solid #2a2112; background-color: #956e30; color: white;
+
+}
+.structure li{
+    max-width: 300px; margin: 3px;
+}
+.structure{
+     margin: 8px 5px;
+}
+
+#containers{
+    margin-left: auto; margin-right: auto;
+    margin-top: 10px; margin-bottom: 10px;
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#video{margin-left: auto; margin-right: auto; margin-top: 15px;}
