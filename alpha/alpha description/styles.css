@@ -15,8 +15,8 @@ h2{color: #e7d283; margin: 0; font-size: 24px;}
 #url a, a:active, a:visited{
     color: white;
 }
-p{
-    text-align: center; color: black; margin: 0;
+div p{
+    text-align: center; color: black; margin: 0; max-width: 100%; width: 100px;
 }
 
 .instructions{
