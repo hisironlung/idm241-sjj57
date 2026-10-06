@@ -47,7 +47,6 @@ Thumbs.db
 
 # Custom #
 ######################
-examples/week7/app/build/question-*.html
 graphics
 inbox
 instructor_materials/workshop-instructor_notes.md
