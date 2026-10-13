@@ -20,7 +20,7 @@ div p{
 }
 
 .instructions{
-    background-color: #e7d283; margin-left: auto; margin-right: auto; margin-bottom: 5px; padding: 5px; border: 4px solid #956e30;
+    background-color: #e7d283; margin-left: auto; margin-right: auto; margin-bottom: 5px; padding: 5px; border: 4px solid #956e30; max-width: 100%; 
 }
 
 .structure>ul{margin: 0; padding: 5px 5px 5px 20px; background-color: #956e30; color: white;
