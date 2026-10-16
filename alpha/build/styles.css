@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Prevents padding from breaking layout widths */
+}
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --light: #e7d283;
+    --medium: #956e30;
+    --dark: #2a2112;
+    --gold: #B29734;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+
+html{
+    font-family: Poppins, serif;
+    overflow: auto;
+    color: var(--black);
+}
+
+body{
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+
+h3{
+    font-size: 1.2vw;
+}
+
+p{
+    font-size: 1vw;
+}
+
+
+body{
+    margin: 0;
+}
+
+header{
+    width: 100vw; background-color: var(--black); display: flex; flex-direction: row; justify-content: center; align-items: center; column-gap: 10vw; padding: 1vw; margin-bottom: 6vw;
+}
+
+header h1{
+    color: var(--white); margin: 0;
+}
+
+#logo{
+    max-width: 100%; width: 15vw; object-fit: contain;
+}
+
+#objects{
+    display: flex; flex-direction: row; align-items: center; justify-content: center; column-gap: 5vw; margin-bottom: 6vw;
+}
+
+#objects img{
+    width: 18vw; margin: 0; transition: transform 0.3s ease-in-out;
+}
+
+#objects>div{
+    display: flex; flex-direction: column;
+}
+
+.thumbnail{
+    display: flex; flex-direction: column; overflow: hidden;
+}
+
+#objects img:hover{
+    transform: scale(1.1); 
+}
+
+.heading{
+    background-color: var(--black);
+}
+
+.heading h3{
+    color: var(--gold); margin: 0; text-align: center; 
+}
+
+.heading p{
+    color: var(--white); margin: 0; text-align: center;
+}
+
+.heading{
+    display: flex; flex-direction: column; justify-content: center; margin: 0; padding: 1vw 0; height: 6.5vw; border-top: .35vw solid var(--gold);
+}
+
+#structure{
+    display: flex; flex-direction: column; row-gap: 5vw; width: 30vw; background-color: var(--black); border: 1vw solid var(--dark); padding: 3vw; margin-bottom: 5vw;
+}
+
+#structure h3{
+    font-size: 1.8vw; text-align: center; color: var(--white);
+}
+
+#structure ul{
+    color: var(--white);
+}
+
+#back{
+    background-color: var(--black); border: 0.5vw solid var(--medium); margin-bottom: 5vw; padding: 1vw; margin-right: auto; margin-left: 3vw;
+}
+
+#back a{
+    font-size: 1.7vw; color: var(--gold);
+}
+
+#back a:active{
+    color: var(--dark);
+}
+
+#back a:visited{
+    color: var(--gold);
+}

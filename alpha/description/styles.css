@@ -1,6 +1,16 @@
 .title{
 background-color: black; max-width: 100%; width: fit-content; padding: 1.2vw;
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+
+html{
+    font-family: Poppins, serif;
+}
+
 div{
     max-width: 100%; width: fit-content;
 }
