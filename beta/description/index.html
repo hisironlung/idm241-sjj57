@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beta Description</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="url">
@@ -23,6 +24,7 @@
         <ul>
             <li>Hover on</li>
             <li>Hover off</li>
+            <li>Click off</li>
         </ul>
         </div>
 
@@ -35,9 +37,20 @@
             <ul>
                 <li>Thumbnail zooms in by 10%</li>
             </ul>
+
             <li>Hover off</li>
             <ul>
                 <li>Thumbnail zooms out to original</li>
+            </ul>
+
+            <li>Click on</li>
+            <ul>
+                <li>Entire card flips to back side containing text with facts about the wrestler</li>
+            </ul>
+
+            <li>Click off</li>
+            <ul>
+                <li>Entire card flips to front side</li>
             </ul>
         </ul>
         </div>
@@ -52,20 +65,23 @@
                 <li>Thumbnail zooms in by 10%</li>
                 <!--<li>'View More' button appears</li>-->
             </ul>
+
             <li>Hover off</li>
             <ul>
                 <li>Thumbnail zooms out to original</li>
                 <!--<li>'View More' button disappears</li>-->
             </ul>
-            <!--<li>Click on</li>
+
+            <li>Click on</li>
             <ul>
-                <li>Image changes to card with information about the wrestler/title</li>
+                <li>Entire card flips to back side containing text with facts about the wrestler</li>
             </ul>
+
             <li>Click off</li>
             <ul>
-                <li>Card returns back to original image</li>
-            </ul>-->
+                <li>Entire card flips to front side</li>
             </ul>
+        </ul>
         </div>
 
         <div class="structure">
@@ -73,15 +89,41 @@
             <h2>Loops & Modes:</h2>
         </div>
         <ul>
-            <li>None</li>
+            <li>Click on</li>
+            <ul>
+                <li>Mode chnages from front of card to back of card</li>
+            </ul>
+
+            <li>Click off</li>
+            <ul>
+                <li>Mode chnages from back of card to front of card</li>
+            </ul>
         </ul>
         </div>
         </div>
 
-    <div id="video">
-        <video width="480" controls>
-            <source src="..\media\examplevideo.mp4" type="video/mp4">
-        </video>
+    <div id="hover">
+        <article>
+            <h3>Click on</h3>
+            <img src="..\media\hoveroff.webp" alt="">
+        </article>
+
+        <article>
+            <h3>Click off</h3>
+            <img src="..\media\hoveron.webp" alt="">
+        </article>
+    </div>
+
+    <div id="click">
+        <article>
+            <h3>Click off</h3>
+            <img src="..\media\clickoff.webp" alt="">
+        </article>
+        
+        <article>
+            <h3>Click on</h3>
+            <img src="..\media\clickon.webp" alt="">
+        </article>
     </div>
 
     <div id="back">
