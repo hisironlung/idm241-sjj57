@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Prevents padding from breaking layout widths */
+}
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --light: #e7d283;
+    --medium: #956e30;
+    --dark: #2a2112;
+    --gold: #B29734;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+
+html{
+    font-family: Poppins, serif;
+    overflow: auto;
+    color: var(--black);
+}
+
+body{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5vw;
+}
+
+h3{
+    font-size: 1.2vw;
+    color: var(--white);
+}
+
+p{
+    font-size: 1vw;
+}
+
+li{
+    font-size: 1.3vw;
+}
+
+body{
+    margin: 0;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card.flipped .card_inner {
+  transform: rotateY(180deg);
+}
+
+.card_front,
+.card_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card_front {
+  background-color: white;
+}
+
+.card_back {
+  background-color: #b54305;
+  color: white;
+  transform: rotateY(180deg);
+}

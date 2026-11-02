@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta Build</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="..\media\logo.webp" alt="">
+        <h1>Roster Beta Build</h1>
+    </header>
+
+    <section id="objects">
+
+        <div class="card">
+
+            <div class="cardinner">
+
+                <div class="front">
+
+                    <div class="thumbnail">
+                        <img src="..\media\fox.webp" alt="">
+                    </div>
+
+                    <article>
+                        <h3>AR Fox</h3>
+                    </article>
+
+                </div>
+
+                <div class="back">
+                    <article class="item">
+                        <h3>AR Fox</h3>
+                        <div id="foxstart">
+                            <p>Thomas James Ballester</p>
+                            <p>6'0"</p>
+                            <p>200lb</p>
+                            <p>Born: September 5, 1987</p>
+                            <p>From: Ansonia, CT</p>
+                            <p>Debut: 2007</p>
+                        </div>
+                    </article>
+
+                    <div class="buttons">
+                        <button id="foxnext">Next</button>
+                        <button id="foxprev">Previous</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+        
+        <div class="card">
+
+            <div class="cardinner">
+
+                <div class="front">
+
+                    <div class="thumbnail">
+                        <img src="..\media\takeshita.webp" alt="">
+                    </div>
+
+                    <article>
+                        <h3>Konosuke Takeshita</h3>
+                    </article>
+
+                </div>
+
+                <div class="back">
+
+                    <article>
+                        <h3>Konosuke Takeshita</h3>
+                        <div id="takestart">
+                            <p>Konosuke Takeshita</p>
+                            <p>6'2"</p>
+                            <p>251lb</p>
+                            <p>Born: May 29st, 1995</p>
+                            <p>From: Osaka, Japan</p>
+                            <p>Debut: 2012</p>
+                        </div>
+                    </article>
+
+                    <div class="buttons">
+                        <button id="takenext">Next</button>
+                        <button id="takeprev">Previous</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <div class="cardinner">
+
+                <div class="front">
+
+                    <div class="thumbnail">
+                        <img src="..\media\danny.webp" alt="">
+                    </div>
+
+                    <article>
+                        <h3>Daniel Garcia</h3>
+                        <p>Death Riders</p>
+                    </article>
+
+                </div>
+
+                <div class="back">
+
+                    <article>
+                        <h3>Daniel Garcia</h3>
+                        <div id="dannystart">
+                            <p>Daniel Garcia</p>
+                            <p>6'0"</p>
+                            <p>187lb</p>
+                            <p>Born: September 17, 1998</p>
+                            <p>From: Buffalo, NY</p>
+                            <p>Debut: 2017</p>
+                        </div>
+                    </article>
+
+                    <div class="buttons">
+                        <button id="dannynext">Next</button>
+                        <button id="dannyprev">Previous</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="interaction">
+        <div id="containers">
+        <div class="structure">
+            <div class="title">
+                <h2>Triggers:</h2>
+            </div>
+            <ul>
+                <li>Thumbnail</li>
+                <ul>
+                    <li>Hover on</li>
+                    <li>Hover off</li>
+                    <li>Click on</li>
+                    <li>Click off</li>
+                </ul>
+                <li>Left arrow</li>
+                <ul>
+                    <li>Click on</li>
+                    <li>Hover on</li>
+                    <li>Hover off</li>
+                </ul>
+                <li>Right arrow</li>
+                <ul>
+                    <li>Click on</li>
+                    <li>Hover on</li>
+                    <li>Hover off</li>
+                </ul>
+            </ul>
+
+        </div>
+
+        <div class="structure">
+            <div class="title">
+                <h2>Rules:</h2>
+            </div>
+            <ul>
+                <li>Thumbnail</li>
+                <ul>
+                    <li>Hover on</li>
+                    <ul>
+                        <li>Thumbnail zooms in by 10%</li>
+                        <li>Cursor changes to finger</li>
+                    </ul>
+
+                    <li>Hover off</li>
+                    <ul>
+                        <li>Thumbnail zooms out to original</li>
+                        <li>Cursor changes back to pointer</li>
+                    </ul>
+
+                    <li>Click on</li>
+                    <ul>
+                        <li>Entire card flips to back side containing text with facts about the wrestler</li>
+                    </ul>
+
+                    <li>Click off</li>
+                    <ul>
+                        <li>Entire card flips to front side</li>
+                    </ul>
+                </ul>
+                <li>Left arrow</li>
+                <ul>
+                    <li>Click on</li>
+                    <ul>
+                        <li>Slides text to the left to reveal next sequential block of text</li>
+                    </ul>
+                    <li>Hover on</li>
+                    <ul>
+                        <li>Cursor changes to finger</li>
+                    </ul>
+                    <li>Hover off</li>
+                    <ul>
+                        <li>Cursor changes back to pointer</li>
+                    </ul>
+                </ul>
+                <li>Right arrow</li>
+                <ul>
+                    <li>Click on</li>
+                    <ul>
+                        <li>Slides text to the right to reveal next sequential block of text</li>
+                    </ul>
+                    <li>Hover on</li>
+                    <ul>
+                        <li>Cursor changes to finger</li>
+                    </ul>
+                    <li>Hover off</li>
+                    <ul>
+                        <li>Cursor changes back to pointer</li>
+                    </ul>
+                </ul>
+            </ul>
+
+        </div>
+
+        <div class="structure">
+            <div class="title">
+                <h2>Feedback:</h2>
+            </div>
+            <ul>
+                <li>Thumbnail</li>
+                <ul>
+                    <li>Hover on</li>
+                    <ul>
+                        <li>Thumbnail zooms in by 10%</li>
+                        <li>Cursor changes to finger</li>
+                    </ul>
+
+                    <li>Hover off</li>
+                    <ul>
+                        <li>Thumbnail zooms out to original</li>
+                        <li>Cursor changes back to pointer</li>
+                    </ul>
+
+                    <li>Click on</li>
+                    <ul>
+                        <li>Entire card flips to back side containing text with facts about the wrestler</li>
+                    </ul>
+
+                    <li>Click off</li>
+                    <ul>
+                        <li>Entire card flips to front side</li>
+                    </ul>
+                </ul>
+                <li>Left arrow</li>
+                <ul>
+                    <li>Click on</li>
+                    <ul>
+                        <li>Slides text to the left to reveal next sequential block of text</li>
+                    </ul>
+                    <li>Hover on</li>
+                    <ul>
+                        <li>Cursor changes to finger</li>
+                    </ul>
+                    <li>Hover off</li>
+                    <ul>
+                        <li>Cursor changes back to pointer</li>
+                    </ul>
+                </ul>
+                <li>Right arrow</li>
+                <ul>
+                    <li>Click on</li>
+                    <ul>
+                        <li>Slides text to the right to reveal next sequential block of text</li>
+                    </ul>
+                    <li>Hover on</li>
+                    <ul>
+                        <li>Cursor changes to finger</li>
+                    </ul>
+                    <li>Hover off</li>
+                    <ul>
+                        <li>Cursor changes back to pointer</li>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+
+        <div class="structure">
+            <div class="title">
+                <h2>Loops & Modes:</h2>
+            </div>
+            <ul>
+                <li>None</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+    <script src="flip.js"></script>
+</body>
+
+</html>
