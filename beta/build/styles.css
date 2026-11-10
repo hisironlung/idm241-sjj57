@@ -216,6 +216,10 @@ header h1{
     font-family: Poppins, serif;
 }
 
+#foxnext:hover, #foxprev:hover, #takenext:hover, #takeprev:hover, #dannynext:hover, #dannyprev:hover{
+    cursor: pointer;
+}
+
 #foxstart, #takestart, #dannystart{
     opacity: 1;
     transform: translateX(0);
