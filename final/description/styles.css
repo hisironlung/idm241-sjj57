@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --light: #e7d283;
+    --medium: #956e30;
+    --dark: #2a2112;
+    --gold: #B29734;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+
+html{
+    font-family: Poppins, serif;
+    overflow: auto;
+    color: var(--black);
+}
+
+body{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+h1{
+    font-size: 2.5vw;
+}
+
+h3{
+    font-size: 1.2vw;
+    color: var(--white);
+}
+
+p{
+    font-size: 1vw;
+}
+
+ul li{
+    list-style-position: inside;
+}
+
+li{
+    font-size: 1.3vw;
+}
+
+a, a:visited{
+    color: var(--black);
+}
+
+header{
+    width: 100vw; 
+    background-color: var(--black); 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    column-gap: 10vw; 
+    padding: 1vw; 
+    margin-bottom: 6vw;
+}
+
+header h1{
+    color: var(--white); 
+    margin: 0;
+}
+
+#logo{
+    max-width: 100%; 
+    width: 15vw; 
+    object-fit: contain;
+}
+
+.instructions{
+    width: 70%;
+}
+
+.instructions p{
+    font-size: 1rem;
+    text-align: center;
+}
+
+#structure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5vw;
+    margin-top: 1vw;
+    background-color: var(--dark);
+    border: 1vw solid var(--medium);
+    padding: 3vw;
+    width: fit-content;
+}
+
+#structure .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background-color: var(--medium);
+    padding: 2vw;
+    color: var(--white);
+}
+
+.content div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: fit-content;
+}
+
+.content div>ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vw;
+    background-color: var(--light);
+    color: var(--black);
+    padding: 1vw 1vw;
+}
+
+.content div>ul li{
+    max-width: 30vw;
+    margin-top: 0.5vw;
+}
+
+.content .header{
+    background-color: var(--black);
+    color: var(--light);
+    width: 100%;
+    padding: 1vw 1vw;
+}
+
