@@ -40,7 +40,6 @@ h1{
 
 h3{
     font-size: 1.2vw;
-    color: var(--white);
 }
 
 p{
@@ -145,3 +144,29 @@ header h1{
     padding: 1vw 1vw;
 }
 
+.examples{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.examples article{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.examples article div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vw;
+}
+
+.examples img{
+    width: 15vw;
+}
